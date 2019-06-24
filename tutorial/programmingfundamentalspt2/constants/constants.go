@@ -2,9 +2,16 @@ package main
 
 import "fmt"
 
-const a = 42
-const b = 42.79
-const c = "James Bond"
+// const a = 42
+// const b = 42.79
+// const c = "James Bond"
+
+const (
+	a int = 42;
+	b float64 = 42.79;
+	c string = "James Bond"
+)
+//strict types or "typed"
 
 func main() {
 	fmt.Println(a)
