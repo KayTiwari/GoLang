@@ -4,6 +4,8 @@ package main
 
 import "fmt"
 
-func main(){
-	
+var a = `Hello There "Friend"`
+
+func main() {
+	fmt.Println(a)
 }
